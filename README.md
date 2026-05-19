@@ -5,7 +5,7 @@ Vadodara, India · [Portfolio](https://satvikspandey.netlify.app) · [LinkedIn](
 
 ---
 
-18 projects · 16 live deployed applications · 4 years of experience · Python · PyTorch · LangGraph · AWS · PySpark
+24 projects · 22 live deployed applications · 4 years of experience · Python · PyTorch · LangGraph · AWS · PySpark
 
 I build production-ready AI systems end-to-end — multi-agent LLM pipelines, computer vision models, RAG search engines, real-time data engineering stacks, and full-stack test automation. Every project below is live and deployed.
 
@@ -24,6 +24,7 @@ I build production-ready AI systems end-to-end — multi-agent LLM pipelines, co
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square)
 ![YOLOv8](https://img.shields.io/badge/YOLOv8-00FFFF?style=flat-square&logoColor=black)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![Stable Baselines3](https://img.shields.io/badge/Stable%20Baselines3-8B0000?style=flat-square)
 
 **Data Engineering**  
 ![Apache Spark](https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
@@ -37,6 +38,7 @@ I build production-ready AI systems end-to-end — multi-agent LLM pipelines, co
 
 **Cloud & Infrastructure**  
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
@@ -45,12 +47,23 @@ I build production-ready AI systems end-to-end — multi-agent LLM pipelines, co
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 
+**Backend & Languages**  
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
+![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=mqtt&logoColor=white)
+
 **Testing & QA**  
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
 ![Ranorex](https://img.shields.io/badge/Ranorex-E2001A?style=flat-square)
 ![SpecFlow](https://img.shields.io/badge/SpecFlow-5B2D8E?style=flat-square)
+
+**Automation & RPA**  
+![UiPath](https://img.shields.io/badge/UiPath-FA4616?style=flat-square&logo=uipath&logoColor=white)
+![Power Automate](https://img.shields.io/badge/Power%20Automate-0066FF?style=flat-square&logo=microsoftpowerautomate&logoColor=white)
+![Salesforce](https://img.shields.io/badge/Salesforce-00A1E0?style=flat-square&logo=salesforce&logoColor=white)
 
 ---
 
@@ -82,6 +95,14 @@ Production REST API on AWS EC2 with API key auth, per-IP rate limiting (10 req/m
 Browser-based transcription from 1000+ streaming sites or local file upload. Groq Whisper Large v3, downloadable .srt output, no installation required.  
 `Whisper` `Groq API` `yt-dlp` `ffmpeg` `Streamlit`
 
+**[Azure IDP](https://github.com/SatvikSPandey/azure-idp)** · [Live Demo](https://azure-idp-satvik.streamlit.app)  
+End-to-end IDP pipeline: Azure Document Intelligence extracts text/key-value pairs → Azure AI Search indexes chunks → Cohere RAG generates grounded answers → OWL/RDF/SKOS knowledge graph with SPARQL query interface. Azure DevOps CI/CD.  
+`Azure Document Intelligence` `Azure AI Search` `OWL/RDF/SKOS` `Cohere` `FastAPI` `Docker`
+
+**[Intelligent Automation Platform](https://github.com/SatvikSPandey/intelligent-automation-platform)** · [Live Demo](https://intelligent-automation-platform-satvik.streamlit.app)  
+Enterprise invoice automation: Azure Document Intelligence → Power Automate routing → UiPath RPA attended workflow → Copilot Studio conversational AI agent. Full audit trail in Supabase PostgreSQL.  
+`UiPath` `Power Automate` `Copilot Studio` `Azure Document Intelligence` `FastAPI` `Docker`
+
 ---
 
 ### 🧠 Computer Vision
@@ -110,6 +131,10 @@ YOLOv8s on NEU steel surface images, 6 defect classes. ONNX export with onnxrunt
 Matrix Factorization vs NeuMF A/B test on MovieLens 25M (25M ratings). MLflow experiment tracking and model registry, FastAPI serving, FAISS cold-start fallback, Kafka consumer, Prometheus + Grafana monitoring, Kubernetes manifests.  
 `MLflow` `PyTorch` `FastAPI` `FAISS` `Kafka` `Prometheus` `Grafana` `Kubernetes`
 
+**[Industrial Energy Optimizer](https://github.com/SatvikSPandey/industrial-energy-optimizer)** · [Live Demo](https://industrial-energy-optimizer-satvik.streamlit.app)  
+Two real trained models: PyTorch LSTM (val MAE 5.73 kWh) for 24-hour energy forecasting + Stable Baselines3 PPO agent achieving 100% production target rate across 50 evaluation episodes. MLflow tracks all experiments.  
+`PyTorch` `Stable Baselines3` `Gymnasium` `MLflow` `FastAPI` `Docker`
+
 **[StreamLake](https://github.com/SatvikSPandey/streamlake)** · [Live Demo](https://streamlake-satvik.streamlit.app)  
 End-to-end real-time streaming lakehouse: Confluent Cloud Kafka → Spark Structured Streaming → Delta Lake Medallion (Bronze/Silver/Gold) on AWS S3 → Snowflake warehouse. Prefect orchestration, Grafana dashboards.  
 `Kafka` `PySpark` `Delta Lake` `AWS S3` `Snowflake` `Prefect` `Grafana`
@@ -126,6 +151,22 @@ XGBoost failure-prediction model with 5-fold stratified CV. AWS SageMaker integr
 Prefect-orchestrated ETL ingesting IoT sensor data + live weather API into Supabase PostgreSQL. Isolation Forest anomaly detection, Streamlit dashboard and Power BI report from the same cloud source.  
 `Prefect` `Supabase` `PostgreSQL` `Isolation Forest` `Power BI` `Streamlit`
 
+**[IoT Edge CRM Platform](https://github.com/SatvikSPandey/iot-edge-crm-platform)** · [Live Demo](https://iot-edge-crm-satvik.streamlit.app)  
+5 Python compressor simulators publish via MQTT (QoS 1) to HiveMQ Cloud → Python edge processor evaluates fault rules locally → FastAPI automatically creates real Salesforce Cases via OAuth 2.0 when faults detected.  
+`MQTT` `HiveMQ` `Salesforce API` `OAuth 2.0` `FastAPI` `Supabase` `Docker`
+
+---
+
+### ⚙️ Backend & Systems
+
+**[Industrial Equipment & Work Order API](https://github.com/SatvikSPandey/industrial-equipment-api)** · [Live Demo](https://industrial-equipment-api.onrender.com/swagger-ui/index.html)  
+Production REST API: Spring Security HMAC-SHA256 JWT with role-based access (ADMIN/ENGINEER/TECHNICIAN), 13 endpoints across auth, equipment, work orders, maintenance logs. Multi-stage Docker build (~180MB image). Azure DevOps CI/CD.  
+`Java` `Spring Boot 3.5` `Spring Security` `JWT` `PostgreSQL` `Docker` `Azure DevOps`
+
+**[SensorStream](https://github.com/SatvikSPandey/sensorstream)** · [Live Demo](https://sensorstream-satvik.onrender.com)  
+Production C++20 service: lock-free SPSC ring buffer with acquire/release memory ordering, Welford online statistics, Z-score anomaly detection across 5 sensor types at 10 Hz. 39 Google Tests, multi-stage Docker (~80MB image).  
+`C++20` `CMake` `Google Test` `Docker` `GitHub Actions` `Render`
+
 ---
 
 ### 🧪 Test Automation
@@ -137,9 +178,6 @@ Comprehensive GUI automation across 4 domains: OpenEMR web, Windows Calculator d
 **[Medical Portal BDD Framework](https://github.com/SatvikSPandey/-medical-portal-test-automation)** · [Live Demo](https://satvikspandey.github.io/-medical-portal-test-automation)  
 7 BDD scenarios across 3 feature files. Page Object Model, ExtentReports HTML dashboard, screenshot on failure. Live report on GitHub Pages.  
 `C#` `.NET 8` `SpecFlow` `NUnit` `Selenium` `ExtentReports`
-
-**[AI Test Automation Framework](https://github.com/SatvikSPandey/ai-test-framework)** · [Live Demo](https://ai-test-framework-satvik.streamlit.app)  
-*(Listed above under AI & LLM Systems)*
 
 ---
 
